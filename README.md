@@ -37,8 +37,6 @@ Overall Churn Rate: 26.58%
 ├── Churned: ████████████████████████░░░░░░░░░░░░░░ 26.58% (1,869 customers)
 └── Retained: ██████████████████████████████████████ 73.42% (5,163 customers)
 
-text
-
 ### Churn by Category
 Contract Type:
 ├── Month-to-month ████████████████████████████████ 42.71%
@@ -61,8 +59,6 @@ Tenure Group:
 ├── 13-24 months ████████████████████████░░░░░░░░ 28.71%
 ├── 25-48 months ██████████████████░░░░░░░░░░░░░░ 20.39%
 └── 49-72 months ████████░░░░░░░░░░░░░░░░░░░░░░░░ 9.51%
-
-text
 
 ---
 
@@ -133,24 +129,20 @@ FUTURE_DS_02/
 └── 📂 scripts/
 └── 🐍 analysis.py # Complete analysis script
 
-text
-
 ---
 
 ## 🚀 How to Run
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/siphemhlongo21-ctrl/FUTURE_DS_02.git
 cd FUTURE_DS_02
-2️⃣ Install Dependencies
-bash
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
-3️⃣ Run the Dashboard
-bash
+### 3️⃣ Run the Dashboard
 streamlit run dashboard/app.py
-4️⃣ Run Analysis Script
-bash
+### 4️⃣ Run Analysis Script
 python scripts/analysis.py
 📊 Dashboard Features
 Feature	Status	Description
@@ -179,7 +171,6 @@ https://images/07_tenure_distribution.png	Tenure distribution by churn
 4	Promote TechSupport & OnlineSecurity — Lower churn rates observed	Medium
 5	Monitor high-risk segment — 816 customers identified	High
 🎯 High-Risk Customer Segment
-text
 High-Risk Segment Characteristics:
 ├── Contract: Month-to-month
 ├── Tenure: ≤ 12 months
@@ -188,7 +179,6 @@ High-Risk Segment Characteristics:
 📊 Count: 816 customers identified
 ⚠️  Priority: Immediate retention intervention recommended
 📊 Churn Driver Analysis
-text
 Top Churn Drivers:
 ├── 1. Contract Type (Month-to-month)    ████████████ 42.71%
 ├── 2. Payment Method (Electronic check) ████████████ 45.29%
